@@ -1,0 +1,48 @@
+a.hover:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+a.click:active {
+    color: red;
+    text-decoration: underline;
+}
+
+a.visited:visited {
+    color: yellow;
+}
+
+textarea:focus {
+    color: green;
+    font-size: 20px;
+}
+
+nav {
+    width: 100%;
+    background-color:darkblue;
+
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+.currentPage {
+    background-color: cornflowerblue;
+}
+
+li:hover {
+    background-color: lightblue;
+}
+
+input:focus {
+    border: 5px aqua dashed;
+}
